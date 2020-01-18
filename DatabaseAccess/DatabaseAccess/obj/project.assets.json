@@ -4263,19 +4263,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lalo\\.nuget\\packages\\": {}
+    "C:\\Users\\Ronny\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Documentos\\GitHub\\DatabaseAcces\\DatabaseAccess\\DatabaseAccess\\DatabaseAccess.csproj",
+      "projectUniqueName": "D:\\Documents\\GitHub\\DatabaseAcces\\DatabaseAccess\\DatabaseAccess\\DatabaseAccess.csproj",
       "projectName": "DatabaseAccess",
-      "projectPath": "E:\\Documentos\\GitHub\\DatabaseAcces\\DatabaseAccess\\DatabaseAccess\\DatabaseAccess.csproj",
-      "packagesPath": "C:\\Users\\Lalo\\.nuget\\packages\\",
-      "outputPath": "E:\\Documentos\\GitHub\\DatabaseAcces\\DatabaseAccess\\DatabaseAccess\\obj\\",
+      "projectPath": "D:\\Documents\\GitHub\\DatabaseAcces\\DatabaseAccess\\DatabaseAccess\\DatabaseAccess.csproj",
+      "packagesPath": "C:\\Users\\Ronny\\.nuget\\packages\\",
+      "outputPath": "D:\\Documents\\GitHub\\DatabaseAcces\\DatabaseAccess\\DatabaseAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Lalo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Ronny\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4320,7 +4320,7 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
