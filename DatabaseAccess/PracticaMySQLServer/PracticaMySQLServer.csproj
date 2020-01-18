@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UNA\vistas\ClienteForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UNA\vistas\ClienteForm.Designer.cs">
+      <DependentUpon>ClienteForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="UNA\vistas\Factura.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UNA\vistas\ClienteForm.resx">
+      <DependentUpon>ClienteForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UNA\vistas\Factura.resx">
       <DependentUpon>Factura.cs</DependentUpon>
     </EmbeddedResource>

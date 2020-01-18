@@ -3,3 +3,11 @@ E:\Documentos\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\bin\Debug\netst
 E:\Documentos\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\obj\Debug\netstandard2.0\DatabaseAccess.csprojAssemblyReference.cache
 E:\Documentos\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\obj\Debug\netstandard2.0\DatabaseAccess.AssemblyInfoInputs.cache
 E:\Documentos\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\obj\Debug\netstandard2.0\DatabaseAccess.AssemblyInfo.cs
+D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\bin\Debug\netstandard2.0\DatabaseAccess.deps.json
+D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\bin\Debug\netstandard2.0\DatabaseAccess.dll
+D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\bin\Debug\netstandard2.0\DatabaseAccess.pdb
+D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\obj\Debug\netstandard2.0\DatabaseAccess.csprojAssemblyReference.cache
+D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\obj\Debug\netstandard2.0\DatabaseAccess.AssemblyInfoInputs.cache
+D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\obj\Debug\netstandard2.0\DatabaseAccess.AssemblyInfo.cs
+D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\obj\Debug\netstandard2.0\DatabaseAccess.dll
+D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\obj\Debug\netstandard2.0\DatabaseAccess.pdb

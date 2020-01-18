@@ -1,0 +1,11 @@
+D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\PracticaMySQLServer\bin\Debug\PracticaMySQLServer.exe.config
+D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\PracticaMySQLServer\bin\Debug\PracticaMySQLServer.exe
+D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\PracticaMySQLServer\bin\Debug\PracticaMySQLServer.pdb
+D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\PracticaMySQLServer\obj\Debug\PracticaMySQLServer.csprojAssemblyReference.cache
+D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\PracticaMySQLServer\obj\Debug\PracticaMySQLServer.Properties.Resources.resources
+D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\PracticaMySQLServer\obj\Debug\PracticaMySQLServer.UNA.vistas.ClienteForm.resources
+D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\PracticaMySQLServer\obj\Debug\PracticaMySQLServer.UNA.vistas.Factura.resources
+D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\PracticaMySQLServer\obj\Debug\PracticaMySQLServer.Form1.resources
+D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\PracticaMySQLServer\obj\Debug\PracticaMySQLServer.csproj.GenerateResource.cache
+D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\PracticaMySQLServer\obj\Debug\PracticaMySQLServer.exe
+D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\PracticaMySQLServer\obj\Debug\PracticaMySQLServer.pdb
