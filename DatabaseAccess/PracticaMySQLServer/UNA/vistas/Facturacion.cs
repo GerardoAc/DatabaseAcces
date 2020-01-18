@@ -46,7 +46,7 @@ namespace PracticaMySQLServer
         private void clientesBtn_Click(object sender, EventArgs e)
         {
             AbrirFormulario(cliente);
-
+        }
         private void button1_Click(object sender, EventArgs e)
         {
            // string ruta = @" server = localhost; user id = root; persistsecurityinfo = True; database = facturador;";

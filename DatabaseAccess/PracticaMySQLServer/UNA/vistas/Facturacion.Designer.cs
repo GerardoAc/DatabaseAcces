@@ -39,7 +39,7 @@
             this.button1 = new System.Windows.Forms.Button();
 
             this.flowLayoutPanel1.SuspendLayout();
-            this.panel1.SuspendLayout();
+            this.panelContenedor.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -124,7 +124,7 @@
             this.Text = "Form1";
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
-            this.panel1.ResumeLayout(false);
+            this.panelContenedor.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
