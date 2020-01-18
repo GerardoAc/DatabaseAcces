@@ -10,17 +10,13 @@ using System.Windows.Forms;
 
 namespace PracticaMySQLServer.UNA.vistas
 {
-    public partial class Factura : Form
+    public partial class FormularioCliente : Form
     {
-        public Factura()
+        public FormularioCliente()
         {
             InitializeComponent();
         }
 
-        private void nuevoClienteBtn_Click(object sender, EventArgs e)
-        {
-            FormularioCliente formularioCliente = new FormularioCliente();
-            formularioCliente.ShowDialog();
-        }
+        
     }
 }

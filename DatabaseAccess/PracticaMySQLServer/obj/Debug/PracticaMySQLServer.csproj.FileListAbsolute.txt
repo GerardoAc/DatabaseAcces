@@ -41,3 +41,4 @@ D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\PracticaMySQLServer\bin\Debug\G
 D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\PracticaMySQLServer\bin\Debug\MySql.Data.xml
 D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\PracticaMySQLServer\bin\Debug\Renci.SshNet.xml
 D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\PracticaMySQLServer\obj\Debug\PracticaMySQLServer.csproj.CopyComplete
+D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\PracticaMySQLServer\obj\Debug\PracticaMySQLServer.UNA.vistas.FormularioCliente.resources
