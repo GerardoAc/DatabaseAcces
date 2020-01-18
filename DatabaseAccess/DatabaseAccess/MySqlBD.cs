@@ -6,9 +6,9 @@ using System.Text;
 
 namespace DatabaseAccess
 {
-    public class MySql : DbAccess
+    public class MySqlBD : DbAccess
     {
-        public override void OpenConnection(string ConnectionString)
+        public override void OpenConnection()
         {
             DbConnection = new MySqlConnection(ConnectionString);
             DbConnection.Open();

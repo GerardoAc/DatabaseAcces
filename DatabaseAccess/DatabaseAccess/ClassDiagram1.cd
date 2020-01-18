@@ -3,15 +3,15 @@
   <Class Name="DatabaseAccess.DbAccess">
     <Position X="2.75" Y="1" Width="1.75" />
     <TypeIdentifier>
-      <HashCode>AAAAACEBIAAAAAAAAAAAABAAAQAoQAAAACAAAAIAIAA=</HashCode>
+      <HashCode>AAAAACEBIAAAAAAAAAAAABBAAQAoAAAAACAAAAAAIAA=</HashCode>
       <FileName>DbAccess.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="DatabaseAccess.MySql">
-    <Position X="7.5" Y="1.25" Width="1.5" />
+  <Class Name="DatabaseAccess.MySqlBD" Collapsed="true">
+    <Position X="6.75" Y="2" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>MySql.cs</FileName>
+      <HashCode>AAAAAAABIAAAAAAAAAAAABBAAQAoAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>MySqlBD.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

@@ -1,8 +1,8 @@
 E:\Documentos\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\bin\Debug\netstandard2.0\DatabaseAccess.deps.json
 E:\Documentos\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\bin\Debug\netstandard2.0\DatabaseAccess.dll
-E:\Documentos\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\obj\Debug\netstandard2.0\DatabaseAccess.csprojAssemblyReference.cache
 E:\Documentos\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\obj\Debug\netstandard2.0\DatabaseAccess.AssemblyInfoInputs.cache
 E:\Documentos\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\obj\Debug\netstandard2.0\DatabaseAccess.AssemblyInfo.cs
+
 D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\bin\Debug\netstandard2.0\DatabaseAccess.deps.json
 D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\bin\Debug\netstandard2.0\DatabaseAccess.dll
 D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\bin\Debug\netstandard2.0\DatabaseAccess.pdb
@@ -11,3 +11,8 @@ D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\obj\Debug\netsta
 D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\obj\Debug\netstandard2.0\DatabaseAccess.AssemblyInfo.cs
 D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\obj\Debug\netstandard2.0\DatabaseAccess.dll
 D:\Documents\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\obj\Debug\netstandard2.0\DatabaseAccess.pdb
+
+E:\Documentos\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\bin\Debug\netstandard2.0\DatabaseAccess.pdb
+E:\Documentos\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\obj\Debug\netstandard2.0\DatabaseAccess.dll
+E:\Documentos\GitHub\DatabaseAcces\DatabaseAccess\DatabaseAccess\obj\Debug\netstandard2.0\DatabaseAccess.pdb
+

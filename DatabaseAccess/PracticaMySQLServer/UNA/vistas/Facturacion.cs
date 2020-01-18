@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DatabaseAccess;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -18,6 +19,7 @@ namespace PracticaMySQLServer
         {
             InitializeComponent();
         }
+
         private void AbrirFormulario(Object hija)
         {
             if (this.panelContenedor.Controls.Count > 0)
@@ -44,6 +46,16 @@ namespace PracticaMySQLServer
         private void clientesBtn_Click(object sender, EventArgs e)
         {
             AbrirFormulario(cliente);
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+           // string ruta = @" server = localhost; user id = root; persistsecurityinfo = True; database = facturador;";
+            MySqlBD mySqlBD = new MySqlBD();
+            mySqlBD.ConnectionString= System.Configuration.ConfigurationManager.ConnectionStrings["MySqlConnection"].ConnectionString;
+
+            mySqlBD.OpenConnection();
+
+
         }
     }
 }
