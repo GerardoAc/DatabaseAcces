@@ -21,7 +21,7 @@ namespace DatabaseAccess
             get;
             set;
         }
-        public abstract void OpenConnection(string ConnectionString);
+        public abstract void OpenConnection();
         public abstract void CloseConnection();
         public abstract DataTable FunctionConsultSQL(String query);
         public abstract long EjectSQL(String query);

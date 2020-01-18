@@ -34,7 +34,9 @@
             this.productosBtn = new System.Windows.Forms.Button();
             this.clientesBtn = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button1 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -87,10 +89,21 @@
             // 
             // panel1
             // 
+            this.panel1.Controls.Add(this.button1);
             this.panel1.Location = new System.Drawing.Point(-3, 37);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(807, 415);
             this.panel1.TabIndex = 3;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(127, 352);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Conectar";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
@@ -103,6 +116,7 @@
             this.Text = "Form1";
             this.flowLayoutPanel1.ResumeLayout(false);
             this.flowLayoutPanel1.PerformLayout();
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -115,6 +129,7 @@
         private System.Windows.Forms.Button productosBtn;
         private System.Windows.Forms.Button clientesBtn;
         private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button1;
     }
 }
 
