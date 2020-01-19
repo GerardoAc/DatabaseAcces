@@ -30,6 +30,7 @@
         {
             this.agregarCliente_btn = new System.Windows.Forms.Button();
             this.clientesDataGrit = new System.Windows.Forms.DataGridView();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.clientesDataGrit)).BeginInit();
             this.SuspendLayout();
             // 
@@ -54,18 +55,29 @@
             this.clientesDataGrit.Size = new System.Drawing.Size(751, 239);
             this.clientesDataGrit.TabIndex = 16;
             // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(238, 63);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 17;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
             // ClienteForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(807, 415);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.clientesDataGrit);
             this.Controls.Add(this.agregarCliente_btn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "ClienteForm";
             this.Text = "ClienteForm";
+            this.Load += new System.EventHandler(this.ClienteForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.clientesDataGrit)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -73,5 +85,6 @@
 
         private System.Windows.Forms.Button agregarCliente_btn;
         private System.Windows.Forms.DataGridView clientesDataGrit;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }

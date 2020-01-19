@@ -37,7 +37,7 @@ namespace DatabaseAccess
         }
         public override bool IsTransaction()
         {
-            return (IsTransaction() != true);
+            return (DbTransaction != null);
         }
         public override void CommitTransaction()
         {
