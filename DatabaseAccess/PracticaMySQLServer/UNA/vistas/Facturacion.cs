@@ -46,13 +46,13 @@ namespace PracticaMySQLServer
         private void clientesBtn_Click(object sender, EventArgs e)
         {
             AbrirFormulario(cliente);
+            cliente.cargarDatos();
         }
         private void button1_Click(object sender, EventArgs e)
         {
            // string ruta = @" server = localhost; user id = root; persistsecurityinfo = True; database = facturador;";
             MySqlBD mySqlBD = new MySqlBD();
             mySqlBD.ConnectionString= System.Configuration.ConfigurationManager.ConnectionStrings["MySqlConnection"].ConnectionString;
-
             mySqlBD.OpenConnection();
 
 

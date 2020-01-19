@@ -1,4 +1,5 @@
-﻿using System.Windows.Forms;
+﻿using DatabaseAccess;
+using System.Windows.Forms;
 
 namespace PracticaMySQLServer.UNA.vistas
 {
@@ -7,6 +8,22 @@ namespace PracticaMySQLServer.UNA.vistas
         public ClienteForm()
         {
             InitializeComponent();
+        }
+        public void cargarDatos() {
+            MySqlBD mySqlBD = new MySqlBD();
+            mySqlBD.ConnectionString = System.Configuration.ConfigurationManager.ConnectionStrings["MySqlConnection"].ConnectionString;
+            mySqlBD.OpenConnection();
+            string query = "Select *From clientes";
+            clientesDataGrit.DataSource = mySqlBD.QuerySQL(query);
+          
+                mySqlBD.CloseConnection();
+        }
+
+        private void agregarCliente_btn_Click(object sender, System.EventArgs e)
+        {
+            FormularioCliente cliente = new FormularioCliente();
+            cliente.ShowDialog();
+
         }
     }
 }

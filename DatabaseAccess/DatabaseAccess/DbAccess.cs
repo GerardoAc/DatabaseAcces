@@ -23,7 +23,7 @@ namespace DatabaseAccess
         }
         public abstract void OpenConnection();
         public abstract void CloseConnection();
-        public abstract DataTable FunctionConsultSQL(String query);
+        public abstract DataTable QuerySQL(String query);
         public abstract long EjectSQL(String query);
         public abstract Boolean IsTransaction();
         public abstract void CommitTransaction();

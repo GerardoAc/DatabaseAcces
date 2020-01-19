@@ -34,8 +34,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.direccionTxt = new System.Windows.Forms.TextBox();
             this.guardarClienteBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -87,30 +85,15 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Telefono";
             // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(113, 209);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 13);
-            this.label4.TabIndex = 7;
-            this.label4.Text = "Direccion";
-            // 
-            // direccionTxt
-            // 
-            this.direccionTxt.Location = new System.Drawing.Point(142, 225);
-            this.direccionTxt.Name = "direccionTxt";
-            this.direccionTxt.Size = new System.Drawing.Size(100, 20);
-            this.direccionTxt.TabIndex = 6;
-            // 
             // guardarClienteBtn
             // 
-            this.guardarClienteBtn.Location = new System.Drawing.Point(154, 265);
+            this.guardarClienteBtn.Location = new System.Drawing.Point(154, 261);
             this.guardarClienteBtn.Name = "guardarClienteBtn";
             this.guardarClienteBtn.Size = new System.Drawing.Size(75, 23);
             this.guardarClienteBtn.TabIndex = 8;
             this.guardarClienteBtn.Text = "Gardar";
             this.guardarClienteBtn.UseVisualStyleBackColor = true;
+            this.guardarClienteBtn.Click += new System.EventHandler(this.guardarClienteBtn_Click);
             // 
             // FormularioCliente
             // 
@@ -118,8 +101,6 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(384, 361);
             this.Controls.Add(this.guardarClienteBtn);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.direccionTxt);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -141,8 +122,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.TextBox direccionTxt;
         private System.Windows.Forms.Button guardarClienteBtn;
     }
 }

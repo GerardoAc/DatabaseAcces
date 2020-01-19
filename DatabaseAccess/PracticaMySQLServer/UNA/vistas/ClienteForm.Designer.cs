@@ -30,61 +30,29 @@
         {
             this.agregarCliente_btn = new System.Windows.Forms.Button();
             this.clientesDataGrit = new System.Windows.Forms.DataGridView();
-            this.nombreColDTG = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.telefonoColuDTG = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.direccionColDTG = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CorreoColDTG = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.clientesDataGrit)).BeginInit();
             this.SuspendLayout();
             // 
             // agregarCliente_btn
             // 
-            this.agregarCliente_btn.Location = new System.Drawing.Point(297, 47);
+            this.agregarCliente_btn.Location = new System.Drawing.Point(41, 60);
             this.agregarCliente_btn.Name = "agregarCliente_btn";
-            this.agregarCliente_btn.Size = new System.Drawing.Size(152, 23);
+            this.agregarCliente_btn.Size = new System.Drawing.Size(123, 23);
             this.agregarCliente_btn.TabIndex = 0;
             this.agregarCliente_btn.Text = "Agregar cliente";
             this.agregarCliente_btn.UseVisualStyleBackColor = true;
+            this.agregarCliente_btn.Click += new System.EventHandler(this.agregarCliente_btn_Click);
             // 
             // clientesDataGrit
             // 
             this.clientesDataGrit.AllowUserToAddRows = false;
             this.clientesDataGrit.AllowUserToDeleteRows = false;
             this.clientesDataGrit.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.clientesDataGrit.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.nombreColDTG,
-            this.telefonoColuDTG,
-            this.direccionColDTG,
-            this.CorreoColDTG});
             this.clientesDataGrit.Location = new System.Drawing.Point(25, 125);
             this.clientesDataGrit.Name = "clientesDataGrit";
             this.clientesDataGrit.ReadOnly = true;
             this.clientesDataGrit.Size = new System.Drawing.Size(751, 239);
             this.clientesDataGrit.TabIndex = 16;
-            // 
-            // nombreColDTG
-            // 
-            this.nombreColDTG.HeaderText = "Nombre";
-            this.nombreColDTG.Name = "nombreColDTG";
-            this.nombreColDTG.ReadOnly = true;
-            // 
-            // telefonoColuDTG
-            // 
-            this.telefonoColuDTG.HeaderText = "Telefono";
-            this.telefonoColuDTG.Name = "telefonoColuDTG";
-            this.telefonoColuDTG.ReadOnly = true;
-            // 
-            // direccionColDTG
-            // 
-            this.direccionColDTG.HeaderText = "Direccion";
-            this.direccionColDTG.Name = "direccionColDTG";
-            this.direccionColDTG.ReadOnly = true;
-            // 
-            // CorreoColDTG
-            // 
-            this.CorreoColDTG.HeaderText = "Correo";
-            this.CorreoColDTG.Name = "CorreoColDTG";
-            this.CorreoColDTG.ReadOnly = true;
             // 
             // ClienteForm
             // 
@@ -105,9 +73,5 @@
 
         private System.Windows.Forms.Button agregarCliente_btn;
         private System.Windows.Forms.DataGridView clientesDataGrit;
-        private System.Windows.Forms.DataGridViewTextBoxColumn nombreColDTG;
-        private System.Windows.Forms.DataGridViewTextBoxColumn telefonoColuDTG;
-        private System.Windows.Forms.DataGridViewTextBoxColumn direccionColDTG;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CorreoColDTG;
     }
 }

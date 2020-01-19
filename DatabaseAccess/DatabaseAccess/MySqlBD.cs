@@ -21,7 +21,7 @@ namespace DatabaseAccess
             }
 
         }
-        public override DataTable FunctionConsultSQL(string query)
+        public override DataTable QuerySQL(string query)
         {
             MySqlDataAdapter adapter = new MySqlDataAdapter();
             DataTable result = new DataTable();
